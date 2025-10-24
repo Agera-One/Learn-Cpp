@@ -8,12 +8,19 @@ int main() {
 
     if (penjumlahan[1] == '+') {
         int hasil = operan_1 + operan_2;
-        cout << hasil << endl;
+        cout << hasil;
     } else if (penjumlahan[1] == '-') {
         int hasil = operan_1 - operan_2;
-        cout << hasil << endl;
+        cout << hasil;
+    } else if (penjumlahan[1] == '*') {
+        int hasil = operan_1 * operan_2;
+        cout << hasil;
+    } else if (penjumlahan[1] == '/') {
+        int hasil = operan_1 / operan_2;
+        cout << hasil; 
     } else {
-        cout << "not registered" << endl;
+        cout << "invalid";
     }
+    
     return 0;
 }
